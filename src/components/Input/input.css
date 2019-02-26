@@ -1,0 +1,25 @@
+.input-item{
+   position: relative;
+   width: 474px;
+   margin: 0 auto;
+}
+.input-item>input{
+    width: 474px;
+    line-height: 33px;
+    padding: 16px 16px 16px 60px;
+    border:none;
+    outline: none;
+    box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+    font-size: 20px;
+    font-style: italic;
+    color: #999;
+    border: 1px solid #eee;
+    border-bottom: none;
+}
+.input-item>a{
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -11px;
+}

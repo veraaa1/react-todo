@@ -1,0 +1,42 @@
+.rest-list{
+    width: 474px;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    border-top: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background: #fff;
+}
+.rest-list>span{
+    width: 67px;
+    font-size: 12px;
+    line-height: 30px;
+}
+.rest-list>ul{
+    width: 210px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    
+}
+.rest-list>ul>li>a{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #000;
+}
+.rest-list>ul>li>a:focus {
+    border: 1px solid #ccc;
+}
+.rest-list>a{
+    width: 100px;
+    font-size: 12px;
+    color: #000;
+    line-height: 30px;
+}

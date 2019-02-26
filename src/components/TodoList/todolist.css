@@ -1,0 +1,67 @@
+.list{
+    width: 474px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.list-con{
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin: 0 auto;
+}
+.list-con>li{
+    width: 100%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: flex-start;
+    border:1px solid #eee;
+    border-top: none
+}
+.list-con input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+.list-i{
+    padding-left: 40px;
+    transition: all 0.3s
+}
+.list-con input[type='checkbox']:checked + label>.list-i{
+ text-decoration: line-through;
+ color: #eee
+}
+.list-con input[type='checkbox']:checked + label>.icon-touch{
+    opacity: 1;
+}
+.list-con>li > .del{
+    display: block;
+    transition: opacity 0.3s;
+    
+}
+.list-con>li > .del{
+    opacity: 0;
+}
+.list-con>li:hover .del{
+    opacity: 1;
+}
+label{
+    position: relative;
+}
+.content-input{
+    width: 450px;
+}
+.icon-untouch{
+    position: absolute;
+    left: -24px;
+    top: 50%;
+    margin-top: -10px;
+    opacity: 1;
+}
+.icon-touch{
+    position: absolute;
+    left: -24px;
+    top: 50%;
+    margin-top: -10px;
+    opacity: 0;
+    transition: all 0.3s
+}
